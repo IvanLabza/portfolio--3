@@ -2,3 +2,60 @@
 @import url(./hero/hero.css);
 @import url(./video/video.css);
 @import url(./servise/servise.css);
+@import url(./portfolio/portfolio.css);
+@import url(./contact/contact.css);
+@import url(./footer/footer.css);
+
+.conteiner{
+min-width: 327px;
+margin: 0 auto;
+background-color: #19191B;
+padding: 0 15px;
+}
+@media screen and (min-width:1158px) {
+    .conteiner {
+        max-width: 1158px;
+    }
+}
+
+ul,li {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    button {
+        cursor: pointer;
+    }
+
+    button::-moz-focus-inner {
+        padding: 0;
+        border: 0;
+    }
+
+    h1,
+    h2,
+    h3,
+    p {
+        margin: 0;
+        padding: 0;
+    }
+
+    img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+  p,a{
+    color: rgba(255, 255, 255, 0.70);
+  }
+
+  h1,h2,h3{
+    color: #FFF;
+
+  }
