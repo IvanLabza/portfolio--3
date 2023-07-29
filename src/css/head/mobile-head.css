@@ -6,13 +6,32 @@
     height: 27px;
 }
 
-.head-menu-open {}
+.head-logo{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.head-logo span{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.head-menu-open {
+    width: 24px;
+    height: 24px;
+}
 
 .head-menu {}
 
 .is-hiden {}
 
-.head-menu-close {}
+.head-menu-close {
+    width: 24px;
+    height: 24px;
+}
 
 .head-menu-list {}
 
