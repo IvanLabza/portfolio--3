@@ -1,4 +1,6 @@
-.head {}
+.head {
+    
+}
 
 
 .head-logo img {
@@ -10,6 +12,7 @@
     display: flex;
     align-items: center;
     gap: 4px;
+    padding-top: 40px;
 }
 
 .head-logo span{
@@ -22,19 +25,58 @@
 .head-menu-open {
     width: 24px;
     height: 24px;
+    background-color: transparent;
+    border: transparent;
+    padding-top: 40px;
+}
+.head-flex{
+    display: flex;
+    justify-content: space-between;
 }
 
-.head-menu {}
+.head-menu {
+    position: fixed;
+        visibility: hidden;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100%;
+        background-color: #000;
+        z-index: 20;
+        padding: 24px 24px 40px 40px;
+        transform: translateY(-100%);
+        transition: transform 250ms ease-in-out;
+}
 
-.is-hiden {}
+.head-menu.is-open{
+    transform: translateY(0);
+        transition: transform 250ms ease-in-out;
+        transition: transform 250ms ease-in-out, visibility 250ms ease-in-out;
+}
+
+.is-open{
+    visibility: visible;
+    transition: transform 250ms ease-in-out, visibility 250ms ease-in-out;
+    overflow: scroll;
+}
 
 .head-menu-close {
+    display: flex;
     width: 24px;
     height: 24px;
+    background-color: transparent;
+    border: transparent;
 }
 
-.head-menu-list {}
+.head-menu-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 35px;
+}
 
-.head-menu-item {}
+.head-menu-item {
+    font-size: 35px;
+}
 
 .head-menu-link {}

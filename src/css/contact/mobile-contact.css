@@ -1,0 +1,27 @@
+.contact {
+    padding-top: 80px;
+    
+}
+
+.contact-header {
+    color: #FFF;
+    font-family: Graphik;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 150%;
+    text-align: left;
+    margin-bottom: 50px;
+        /* 54px */
+}
+
+.contact-btn {
+    width: 166px;
+    height: 44px;
+    border-radius: 4px;
+    background: #5454D4;
+    color: #FFF;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 700;
+}

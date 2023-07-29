@@ -1,0 +1,38 @@
+.ftr {
+    padding-top: 140px;
+    padding-bottom: 50px;
+}
+
+.ftr-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    margin-bottom: 40px;
+}
+
+.ftr-logo{
+    width: 27px;
+    height: 27px;
+}
+.ftr-logo{
+   
+}
+.ftr-logo span{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.ftr-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.ftr-list-item {}
+
+.ftr-list-link {}
