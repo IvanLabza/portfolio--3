@@ -35,4 +35,12 @@
 
 .ftr-list-item {}
 
-.ftr-list-link {}
+.ftr-list-link {
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+        /* 155.556% */
+    text-transform: capitalize;
+}
