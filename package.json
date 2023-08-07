@@ -1,11 +1,11 @@
 {
-  "name": "comand-project",
+  "name": "portfolio--3",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/comand-project/",
+    "build": "vite build --base=/portfolio--3/",
     "preview": "vite preview"
   },
   "devDependencies": {
