@@ -27,7 +27,7 @@
     height: 24px;
     background-color: transparent;
     border: transparent;
-    padding-top: 40px;
+    margin-top: 40px;
 }
 .head-flex{
     display: flex;
