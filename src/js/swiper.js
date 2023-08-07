@@ -16,7 +16,7 @@ const swiper = new Swiper('.portfolio-swiper', {
     stopOnLastSlide: false,
     disableOnIteration: false,
   },
-  speed: 1000,
+  speed: 2500,
   // mousewheel: {
   //   sensitivity: 1,
   // },
@@ -24,12 +24,6 @@ const swiper = new Swiper('.portfolio-swiper', {
     370: {
       slidesPerView: 1,
       slidesPerGroup: 1,
-    },
-    768: {
-      slidesPerView: 2,
-      slidesPerGroup: 2,
-      spaceBetween: 16,
-      loop: true,
     },
     1200: {
       slidesPerView: 3,

@@ -14,11 +14,11 @@
 
 .portfolio-list {}
 
-.portfolio-item {}
-
-.portfolio-item-img {
-    border-radius: 21px;
+.portfolio-item {
+    margin-bottom: 30px;
 }
-.portfolio-pag{
-    margin: 0 auto;
+
+.slider-pagination{
+   display: flex;
+   justify-content: center;
 }
